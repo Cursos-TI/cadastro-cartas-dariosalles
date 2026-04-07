@@ -24,10 +24,10 @@ int main() {
     // Entrada de dados - Carta 1
   
     printf("=== Cadastro da Carta 1 ===\n");
-    printf("Estado: ");
+    printf("Estado: (UF)");
     scanf(" %[^\n]", carta1.estado);
 
-    printf("Codigo da carta: ");
+    printf("Codigo da carta: (Somente números)");
     scanf("%d", &carta1.codigo_carta);
 
     printf("Nome da cidade: ");
@@ -48,10 +48,10 @@ int main() {
     // Entrada de dados - Carta 2
   
     printf("\n=== Cadastro da Carta 2 ===\n");
-    printf("Estado: ");
+    printf("Estado: (UF)");
     scanf(" %[^\n]", carta2.estado);
 
-    printf("Codigo da carta: ");
+    printf("Codigo da carta: (Somente números)");
     scanf("%d", &carta2.codigo_carta);
 
     printf("Nome da cidade: ");
@@ -71,8 +71,8 @@ int main() {
 
     // Área para exibição dos dados da cidade
     printf("\n=== Carta 1 ===\n");
-    printf("Estado: (UF) %s\n", carta1.estado);
-    printf("Codigo: (Somente números) %d\n", carta1.codigo_carta);
+    printf("Estado: %s\n", carta1.estado);
+    printf("Codigo: %d\n", carta1.codigo_carta);
     printf("Cidade: %s\n", carta1.nome_cidade);
     printf("Populacao: %d\n", carta1.populacao);
     printf("Area: %.2f km²\n", carta1.area);
@@ -80,8 +80,8 @@ int main() {
     printf("Pontos Turisticos: %d\n", carta1.numero_pontos_turisticos);
 
     printf("\n=== Carta 2 ===\n");
-    printf("Estado: (UF) %s\n", carta2.estado);
-    printf("Codigo: (Somente números) %d\n", carta2.codigo_carta);
+    printf("Estado: %s\n", carta2.estado);
+    printf("Codigo: %d\n", carta2.codigo_carta);
     printf("Cidade: %s\n", carta2.nome_cidade);
     printf("Populacao: %d\n", carta2.populacao);
     printf("Area: %.2f km²\n", carta2.area);
