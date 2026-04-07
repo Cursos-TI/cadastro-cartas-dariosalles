@@ -24,10 +24,10 @@ int main() {
     // Entrada de dados - Carta 1
   
     printf("=== Cadastro da Carta 1 ===\n");
-    printf("Estado: (UF)");
+    printf("Estado (UF): ");
     scanf(" %[^\n]", carta1.estado);
 
-    printf("Codigo da carta: (Somente números)");
+    printf("Codigo da carta (Somente números): ");
     scanf("%d", &carta1.codigo_carta);
 
     printf("Nome da cidade: ");
@@ -48,10 +48,10 @@ int main() {
     // Entrada de dados - Carta 2
   
     printf("\n=== Cadastro da Carta 2 ===\n");
-    printf("Estado: (UF)");
+    printf("Estado (UF): ");
     scanf(" %[^\n]", carta2.estado);
 
-    printf("Codigo da carta: (Somente números)");
+    printf("Codigo da carta (Somente números): ");
     scanf("%d", &carta2.codigo_carta);
 
     printf("Nome da cidade: ");
